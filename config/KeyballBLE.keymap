@@ -60,8 +60,8 @@
             bindings = <
 &lt 6 ESCAPE  &kp Q         &kp W         &kp E            &kp R             &kp T                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P      &kp BSPC
 &kp TAB       &kp A         &kp S         &kp D            &kp F             &kp G        &mkp MCLK         &kp F7   &kp H        &kp J  &kp K      &kp L    &kp MINUS  &lt 4 ENTER
-&kp LSHFT     &kp Z         &kp X         &kp C            &kp V             &kp B        &kp LG(SPACE)     &kp F10  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp EQUAL
-&kp LCTRL     &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 SEMICOLON  &kp INT_MUHENKAN  &lt 2 SPACE  &kp INT_HENKAN    &to 4    &lt 1 SPACE                             &kp F12    &kp DOUBLE_QUOTES
+&kp LSHFT     &kp Z         &kp X         &kp C            &kp V             &kp B        &kp LG(SPACE)     &kp F10  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp LS(MINUS)
+&kp LCTRL     &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 SEMICOLON  &kp INT_MUHENKAN  &lt 2 SPACE  &kp INT_HENKAN    &to 4    &lt 1 SPACE                             &kp F12    &kp LS(N2)
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &none   &kp EXCLAMATION  &kp RIGHT_BRACKET  &kp LESS_THAN          &kp GREATER_THAN                         &kp F2      &none  &kp LS(LC(F3))  &none  &kp ASTERISK   &trans
-&trans  &none   &kp HASH         &kp SQT            &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_0)   &trans    &none       &kp LS(F6)  &none  &kp LS(LC(F8))  &none  &kp COLON      &trans
-&trans  &none   &kp DOLLAR       &kp PERCENT        &kp AT_SIGN            &kp RIGHT_BRACKET  &none     &kp LA(F4)  &none       &none  &none           &none  &kp LS(GRAVE)  &none
-&trans  &trans  &trans           &trans             &trans                 &trans             &trans    &none       &trans                                    &none          &kp F12
+&trans  &none   &kp EXCLAMATION  &kp RIGHT_BRACKET  &kp LESS_THAN          &kp GREATER_THAN                        &kp F2      &none  &kp LS(LC(F3))  &none  &kp ASTERISK   &trans
+&trans  &none   &kp HASH         &kp SQT            &kp RIGHT_PARENTHESIS  &kp LS(A)         &trans    &none       &kp LS(F6)  &none  &kp LS(LC(F8))  &none  &kp COLON      &trans
+&trans  &none   &kp DOLLAR       &kp PERCENT        &kp AT_SIGN            &kp LEFT_BRACKET  &none     &kp LA(F4)  &none       &none  &none           &none  &kp LS(GRAVE)  &none
+&trans  &trans  &trans           &trans             &trans                 &trans            &trans    &none       &trans                                    &none          &kp F12
             >;
         };
 
