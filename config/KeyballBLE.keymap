@@ -69,7 +69,7 @@
 
         FUNCTION {
             bindings = <
-&trans  &none   &kp EXCLAMATION  &kp GRAVE    &kp LESS_THAN      &kp GREATER_THAN                        &kp F2      &none  &kp LS(LC(F3))  &none  &kp LS(LEFT_BRACKET)  &trans
+&trans  &none   &kp EXCLAMATION  &kp EQUAL    &kp LESS_THAN      &kp GREATER_THAN                        &kp F2      &none  &kp LS(LC(F3))  &none  &kp LS(LEFT_BRACKET)  &trans
 &trans  &none   &kp HASH         &kp SQT      &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans    &none       &kp LS(F6)  &none  &kp LS(LC(F8))  &none  &kp LS(N7)            &trans
 &trans  &none   &kp DOLLAR       &kp PERCENT  &kp RIGHT_BRACKET  &kp BACKSLASH     &none     &kp LA(F4)  &none       &none  &none           &none  &kp AT_SIGN           &none
 &trans  &trans  &trans           &trans       &trans             &trans            &trans    &none       &trans                                    &none                 &kp F12
