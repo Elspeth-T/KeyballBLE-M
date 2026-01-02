@@ -60,7 +60,7 @@
             bindings = <
 &lt 6 ESCAPE  &kp Q         &kp W         &kp E            &kp R             &kp T                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P      &kp BSPC
 &kp TAB       &kp A         &kp S         &kp D            &kp F             &kp G        &mkp MCLK         &kp F7   &kp H        &kp J  &kp K      &kp L    &kp MINUS  &lt 4 ENTER
-&kp LSHFT     &kp Z         &kp X         &kp C            &kp V             &kp B        &kp LG(SPACE)     &kp F10  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp UNDERSCORE
+&kp LSHFT     &kp Z         &kp X         &kp C            &kp V             &kp B        &kp LG(SPACE)     &kp F10  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp UNDER
 &kp LCTRL     &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 SEMICOLON  &kp INT_MUHENKAN  &lt 2 SPACE  &kp INT_HENKAN    &to 4    &lt 1 SPACE                             &kp F12    &lt 5 LEFT_BRACKET
             >;
 
